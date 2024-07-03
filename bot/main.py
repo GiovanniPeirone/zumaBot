@@ -16,17 +16,18 @@ def menu1():
 #-------------------
 
 def menu2():
-    
+    print("as")
 
 #-------------------
+
 main = menu1()
+
 while main:
     try:
         direccion = str(input("direccion:"))
         resolucion = str(input("resolcion:"))
-
-
-
+                                      
     except ValueError:
+        print("----------------------------------ERROR----------------------------------------")
         break
 
